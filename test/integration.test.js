@@ -22,7 +22,6 @@ const filteredTestsToRun = integrationTests.filter((testName) => {
       'argon2.js',
       'highlights.js',
       'hot-shots.js',
-      'loopback.js',
       'playwright-core.js',
     ].includes(testName)
   ) {
